@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
+<html>
+<head>
+<title>PassEntertainment</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="<c:url value="/resources/css/StyleSheet.css" />" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="homePage" class="pass-homepage-body">
+<!-- Navbar -->
+<div>
+	<%-- <div1>
+		
+ 		<a href="./" class="pass-homepage-header-content-left">
+ 		<img src="<c:url value="/resources/images/passlogo.png" />" alt="" style="width:5%;min-height:40px;max-height:40px;"/>
+ 		</a>
+ 	</div1> --%>
+ 	<div2 >
+  		<a href="./contacts" class="pass-homepage-header-content-right"></br>Contacts Us</a>
+  		<a href="./aboutus" class="pass-homepage-header-content-right"></br>About Us&nbsp&nbsp</a>
+  		<a href="./" class="pass-homepage-header-content-right" ></br>Home&nbsp&nbsp</a>	
+  		
+	</div2>
+	
+</div>
+
+<!-- Image Header -->
+<div0 align="center" class="bg">
+		<div>
+  			<img src="<c:url value="/resources/images/passhomepage.png" />" alt="" style="width:100%;min-height:350px;max-height:600px;">
+		</div>
+</div0>
+
+
+<div>
+	<div3>
+		<a href="./entertainment" class="pass-homepage-footer-content-left">
+			<img src="<c:url value="/resources/images/entertainment.png" />" alt="" style="width:15%;min-height:80px;max-height:80px;"/>
+			<p>Entertainment</p>
+		</a>
+		
+	</div3>
+	<div4>	    	    
+	    <a href="./games" class="pass-homepage-footer-content-right">
+	    		<img  src="<c:url value="/resources/images/games.png"  />"  alt="" style="width:15%;min-height:80px;max-height:80px;"/>
+	    		<p>Games</p>
+	    </a>
+	</div4>
+</div>
+
+<div align="center">
+	<div5 class="socialfooter">
+			<a href="#" class="fa fa-facebook"></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#" class="fa fa-twitter"></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#" class="fa fa-google"></a>
+			<p>Copyright 2018-2019. All rights reserved. Powered by the Pass Entertainment</p>
+		</div5>
+</div>
+</body>
+</html>
+
